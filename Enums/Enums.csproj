@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D440A43-37AB-4FB2-B8BB-FFA92C1B79A6}</ProjectGuid>
+    <ProjectGuid>{4629668B-DC9D-418F-878E-CE66B8F269B2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Foreach_RemoveFromList</RootNamespace>
-    <AssemblyName>Foreach_RemoveFromList</AssemblyName>
+    <RootNamespace>Enums</RootNamespace>
+    <AssemblyName>Enums</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Instructor.cs" />
-    <Compile Include="InstructorRepository.cs" />
+    <Compile Include="Dragon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

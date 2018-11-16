@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach_RemoveFromList", "Foreach_RemoveFromList\Foreach_RemoveFromList.csproj", "{7D440A43-37AB-4FB2-B8BB-FFA92C1B79A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{4629668B-DC9D-418F-878E-CE66B8F269B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7D440A43-37AB-4FB2-B8BB-FFA92C1B79A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D440A43-37AB-4FB2-B8BB-FFA92C1B79A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D440A43-37AB-4FB2-B8BB-FFA92C1B79A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4629668B-DC9D-418F-878E-CE66B8F269B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4629668B-DC9D-418F-878E-CE66B8F269B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4629668B-DC9D-418F-878E-CE66B8F269B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4629668B-DC9D-418F-878E-CE66B8F269B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
