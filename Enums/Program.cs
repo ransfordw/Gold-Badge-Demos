@@ -23,7 +23,8 @@ namespace Enums
                 "Gold\n" +
                 "Elder\n" +
                 "Frost\n" +
-                "Blue");
+                "Blue\n" +
+                "Green");
             var dragonInput = Console.ReadLine();
             switch (dragonInput)
             {
@@ -42,10 +43,12 @@ namespace Enums
                 case "Gold":
                     dragon.TypeOfDragon = DragonType.Gold;
                     break;
+                case "Green":
+                    dragon.TypeOfDragon = DragonType.Green;
+                    break;
                 default:
                     break;
             }
-
         }
     }
 }

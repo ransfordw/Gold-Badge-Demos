@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace Enums
 {
-    public enum DragonType { Red = 1, Frost, Elder, Blue, Gold}
+    public enum DragonType { Red = 1, Frost, Elder, Blue, Gold, Green}
     class Dragon
     {
         public DragonType TypeOfDragon { get; set; }
         public bool BreathesFire { get; set; }
         public bool IsScary { get; set; }
         public int AmountOfGold { get; set; }
-
-
-
     }
 }
