@@ -14,7 +14,7 @@ namespace Enums
             {
                 BreathesFire = true,
                 IsScary = false,
-                AmountOfGold = 2000,
+                AmountOfGold = 2500,
                 TypeOfDragon = DragonType.Red,
             };
 
@@ -49,6 +49,8 @@ namespace Enums
                 default:
                     break;
             }
+            if (dragon.TypeOfDragon == DragonType.Frost)
+                Console.WriteLine("Better wear a coat");
         }
     }
 }
